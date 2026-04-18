@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie Photos — Au Village | Restaurant Bry-sur-Marne | Salle, Plats & Ambiance</title>
+  <meta name="description" content="Découvrez en photos le restaurant Au Village à Bry-sur-Marne : la salle élégante, les plats savoureux, la terrasse et l'ambiance chaleureuse. Réservez votre table au 01 XX XX XX XX.">
+  <link rel="canonical" href="https://auvillage-restaurant.fr/galerie.html">
+  <meta property="og:title" content="Galerie — Au Village | Restaurant Bry-sur-Marne">
+  <meta property="og:description" content="Photos du restaurant Au Village : salle, plats, terrasse et ambiance à Bry-sur-Marne.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav__inner">
+          <a href="index.html" class="nav__logo">
+            <span class="nav__logo-name">Au Village</span>
+            <span class="nav__logo-tagline">Bry-sur-Marne · Depuis 2010</span>
+          </a>
+          <ul class="nav__links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="restaurant.html">Le Restaurant</a></li>
+            <li><a href="carte.html">La Carte</a></li>
+            <li><a href="menus.html">Menus</a></li>
+            <li><a href="galerie.html" class="active">Galerie</a></li>
+            <li><a href="avis.html">Avis</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="nav__cta">
+            <a href="tel:+33100000000" class="nav__phone">📞 01 XX XX XX XX</a>
+            <a href="contact.html" class="btn btn--primary btn--lg">Réserver</a>
+          </div>
+          <button class="nav__burger" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+    </nav>
+    <div class="nav__mobile">
+      <button class="nav__mobile-close"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+      <nav class="nav__mobile-links">
+        <a href="index.html">Accueil</a><a href="restaurant.html">Le Restaurant</a><a href="carte.html">La Carte</a>
+        <a href="menus.html">Menus</a><a href="galerie.html">Galerie</a><a href="avis.html">Avis</a><a href="contact.html">Contact</a>
+      </nav>
+      <a href="tel:+33100000000" class="btn btn--gold btn--lg" style="justify-content:center;margin-bottom:1rem;">📞 Appeler</a>
+      <a href="https://maps.google.com/?q=1+Rue+de+Noisy+le+Grand,+94360+Bry-sur-Marne" target="_blank" rel="noopener" class="btn btn--outline" style="justify-content:center;">🗺 Itinéraire</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-hero page-hero--galerie">
+      <div class="container">
+        <nav class="page-hero__breadcrumb">
+          <a href="index.html">Accueil</a><span class="breadcrumb__sep">›</span><span>Galerie</span>
+        </nav>
+        <span class="eyebrow" style="display:block;margin-bottom:1rem;">En images</span>
+        <h1>L'Univers Au Village</h1>
+        <p>Salle, cuisine, plats, terrasse — découvrez notre univers en photos.</p>
+      </div>
+    </section>
+
+    <!-- Galerie -->
+    <section class="section" aria-labelledby="gallery-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Notre univers</span>
+          <h2 id="gallery-heading">Galerie Photos</h2>
+          <p class="lead">
+            Chaque image raconte une histoire. Celle d'un lieu où le beau et le bon se rencontrent
+            autour d'une table bien dressée.
+          </p>
+        </div>
+
+        <!-- Filtres -->
+        <div class="gallery-filter reveal">
+          <button class="menu-tab active" data-cat="all">Tout voir</button>
+          <button class="menu-tab" data-cat="salle">La salle</button>
+          <button class="menu-tab" data-cat="plats">Les plats</button>
+          <button class="menu-tab" data-cat="terrasse">Terrasse</button>
+          <button class="menu-tab" data-cat="details">Détails & Décor</button>
+        </div>
+
+        <!-- Masonry Grid -->
+        <div class="gallery-masonry reveal">
+
+          <div class="gallery-masonry__item" data-cat="salle">
+            <img
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=700&q=80&auto=format&fit=crop"
+              alt="Salle principale du restaurant Au Village, tables dressées élégamment"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="plats">
+            <img
+              src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=700&q=80&auto=format&fit=crop"
+              alt="Plat gastronomique au restaurant Au Village, magnifique présentation"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="details">
+            <img
+              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=80&auto=format&fit=crop"
+              alt="Table dressée avec soin, couverts et verres à cristal"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="plats">
+            <img
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=700&q=80&auto=format&fit=crop"
+              alt="Plat signature du chef, présentation artistique"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="salle">
+            <img
+              src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=700&q=80&auto=format&fit=crop"
+              alt="Ambiance chaleureuse de la salle, lumières tamisées"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="terrasse">
+            <img
+              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=700&q=80&auto=format&fit=crop"
+              alt="Terrasse du restaurant Au Village, repas en plein air"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="plats">
+            <img
+              src="https://images.unsplash.com/photo-1611489704827-4cf7ee494e94?w=700&q=80&auto=format&fit=crop"
+              alt="Dessert maison du restaurant Au Village, crème brûlée"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="details">
+            <img
+              src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=700&q=80&auto=format&fit=crop"
+              alt="Bouteille de vin et décoration de table élégante"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="plats">
+            <img
+              src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=700&q=80&auto=format&fit=crop"
+              alt="Entrée raffinée, foie gras et toast briochés"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="salle">
+            <img
+              src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=700&q=80&auto=format&fit=crop"
+              alt="Bar et espace accueil du restaurant Au Village"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="plats">
+            <img
+              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=700&q=80&auto=format&fit=crop"
+              alt="Plat de viande raffiné, magret de canard"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="details">
+            <img
+              src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=700&q=80&auto=format&fit=crop"
+              alt="Détail d'une flûte de champagne, moment festif"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="plats">
+            <img
+              src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=700&q=80&auto=format&fit=crop"
+              alt="Plat coloré du chef, légumes de saison"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="terrasse">
+            <img
+              src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=700&q=80&auto=format&fit=crop"
+              alt="Tables en terrasse, parasols et jardinières fleuries"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+          <div class="gallery-masonry__item" data-cat="details">
+            <img
+              src="https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=700&q=80&auto=format&fit=crop"
+              alt="Service en salle, couverture d'une table avec soin"
+              class="gallery-masonry__img"
+              loading="lazy"
+            >
+            <div class="gallery-masonry__overlay">🔍</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram CTA -->
+    <section class="section section--dark" aria-labelledby="social-heading">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="eyebrow">Suivez-nous</span>
+          <h2 id="social-heading" style="color:var(--ivoire);margin-bottom:1rem;">Retrouvez-nous sur Instagram</h2>
+          <p style="color:rgba(245,240,232,0.65);max-width:480px;margin:0 auto 2rem;">
+            Pour ne manquer aucune nouveauté, aucun plat du moment, aucune annonce —
+            suivez notre compte Instagram et partagez vos moments Au Village.
+          </p>
+          <div style="display:flex;justify-content:center;gap:1rem;flex-wrap:wrap;">
+            <a href="#" class="btn btn--gold btn--lg" aria-label="Nous suivre sur Instagram">
+              📸 @auvillage_brysurm
+            </a>
+            <a href="#" class="btn btn--outline btn--lg" aria-label="Nous suivre sur Facebook">
+              👍 Page Facebook
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band">
+      <div class="container">
+        <div class="cta-band__inner">
+          <span class="eyebrow" style="display:block;margin-bottom:1rem;">Vivez l'expérience</span>
+          <h2>Ces images vous ont donné faim ?</h2>
+          <p>Réservez votre table et venez vivre ces moments en vrai.</p>
+          <div class="cta-band__actions">
+            <a href="tel:+33100000000" class="btn btn--gold btn--lg">📞 Réserver une table</a>
+            <a href="contact.html" class="btn btn--outline btn--lg">Nous contacter</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" role="dialog" aria-label="Visualisation de la photo" aria-modal="true">
+    <button class="lightbox__close" aria-label="Fermer la photo">✕</button>
+    <button class="lightbox__nav lightbox__prev" aria-label="Photo précédente">‹</button>
+    <img src="" alt="" class="lightbox__img">
+    <button class="lightbox__nav lightbox__next" aria-label="Photo suivante">›</button>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <span class="footer__brand-name">Au Village</span>
+          <span class="footer__brand-tagline">Restaurant Français · Bry-sur-Marne</span>
+          <p class="footer__brand-desc">Restaurant français traditionnel et raffiné au cœur de Bry-sur-Marne.</p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" class="footer__social"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <p class="footer__col-title">Navigation</p>
+          <ul class="footer__links">
+            <li><a href="index.html">→ Accueil</a></li><li><a href="restaurant.html">→ Le Restaurant</a></li>
+            <li><a href="carte.html">→ La Carte</a></li><li><a href="menus.html">→ Menus</a></li>
+            <li><a href="galerie.html">→ Galerie</a></li><li><a href="avis.html">→ Avis</a></li><li><a href="contact.html">→ Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Services</p>
+          <ul class="footer__links">
+            <li><a href="menus.html">→ Menu Déjeuner</a></li><li><a href="menus.html">→ Menu Dîner</a></li>
+            <li><a href="contact.html">→ Privatisation</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title">Contact</p>
+          <div class="footer__info-item"><span class="footer__info-icon">📍</span><span>1 Rue de Noisy le Grand, 94360 Bry-sur-Marne</span></div>
+          <div class="footer__info-item"><span class="footer__info-icon">📞</span><a href="tel:+33100000000">01 XX XX XX XX</a></div>
+          <div class="footer__info-item"><span class="footer__info-icon">🕐</span><span>Mar–Sam 12h–14h30 & 19h–22h</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;">
+        <span>© 2025 Au Village — Restaurant Français à Bry-sur-Marne.</span>
+        <div style="display:flex;gap:1.5rem;"><a href="#">Mentions légales</a><a href="#">Confidentialité</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="sticky-cta">
+    <a href="tel:+33100000000" class="sticky-cta__btn sticky-cta__btn--call">📞 Appeler</a>
+    <a href="https://maps.google.com/?q=1+Rue+de+Noisy+le+Grand,+94360+Bry-sur-Marne" target="_blank" rel="noopener" class="sticky-cta__btn sticky-cta__btn--map">🗺 Itinéraire</a>
+    <a href="carte.html" class="sticky-cta__btn sticky-cta__btn--menu">📋 La carte</a>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
